@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Providers from "@/components/ThemeCom";
 import { ClerkProvider } from "@clerk/nextjs";
+import Navbar from "@/components/Navbar";
 
 
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       >
         <Providers>
         <Header />
+        <Navbar />
         {children}
         </Providers>
       </body>
