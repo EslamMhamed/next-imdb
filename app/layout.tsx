@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Providers from "@/components/ThemeCom";
 import { ClerkProvider } from "@clerk/nextjs";
 import Navbar from "@/components/Navbar";
+import SearchBox from "@/components/SearchBox";
 
 
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Providers>
         <Header />
         <Navbar />
+        <SearchBox />
         {children}
         </Providers>
       </body>
