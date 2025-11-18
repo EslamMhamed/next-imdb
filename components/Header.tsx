@@ -17,6 +17,9 @@ function Header() {
         <li>
           <Link href='/' >Home</Link>
         </li>
+        <li className="hidden sm:block">
+          <Link href='/favorites' >Favorites</Link>
+        </li>
         <li>
           <Link href='/about' >About</Link>
         </li>
